@@ -1,0 +1,54 @@
+Clyde - Father Marcus
+
+Father - *praying...*
+Father - How can I help you son?
+Clyde - Father, the World is in DANGER!!
+Father - In Danger? Why?
+
+(mediante a decisão inicial)
+1)Clyde - Abaddon is coming and we need to STOP HIM.
+2)Clyde - Abaddon will save us all, he's our savior, JOIN US and your lives will be spared.
+3)Clyde - Abaddon is arriving, the scariest beast the World has ever seen, we need to RUN AWAY FROM HERE!
+
+Father - I hope this isn't another bad joke!
+Clyde - It's not! I wouldn't come here and interrupt your prayers in vain...
+Father - Why do you think I can believe you?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<DECISION>
+1)We need to be alive to keep loving Him. the only way is to ESCAPE from this World!
+2)You represent God's strenght, the one capable to help us from the end of the World.
+3)We are not praying for the right God! Believe it or not, Pogbeast is the only God you will ever see for yourself
+
+R1)Priest - You may be right, we need to save ourselves in order to continue His existence, if this is true... 
+R2) Of course, He can guide us indeed
+R3) Dont' you ever say that again!!! There's only one God to guide us.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Father - Well, with just that, I'm still not very convinced...
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<DECISION>
+1)Your followers just follow you because of your God, when they're facing Abaddon, they will bow down to him. This is your oportunity to keep them on your side.
+2)You have the most followers behind you, your help is crucial. More people means greater chances of BEATING him!
+3)Many people follows you. You can SAVE them!! We need to bring as many as possible with us...
+
+R1) *thinking* ("Is this God so powerful?? This kid might not be joking")
+R2) Well, you may have a point, nothing is more powerful than fighting for God...
+R3) Indeed, if this is a real problem, you're quite right.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Father - I can see that this isn't a joke son...
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<DECISION>
+1)Father, you know, deep in you, that FIGHTING Abaddon is the best way to really show the God's power! 
+2)Now it's up to you, either you're with us, or you're against us! With or without you, Abaddon will turn this World apart. 
+3)Please Father, Abaddon is bringing the END. We really need to find a way to get out of here.
+
+R1) I really have that power in my hands, right now...
+R2) Uhm... Uhm... He seems really powerful, according to you...
+R3) This seems really serious. Maybe it's best to save ourselves... 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Clyde - Alright, I guess I have nothing more to say. Your call!
+Father - Alright, alright son. May God be with you!

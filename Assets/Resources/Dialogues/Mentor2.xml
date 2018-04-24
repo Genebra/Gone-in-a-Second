@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      <line>Mentor - Hey Clyde, how are you? I hope your mission is doing GREAT!</line>
+      <line>Mentor - And don't forget:</line>
+      <line>We need to gather everyone to FIGHT TOGETHER. As a unit, we have the power to KILL HIM!</line>
+    </dialogue>
+</Node>
+</NodeList>
+</Graph>

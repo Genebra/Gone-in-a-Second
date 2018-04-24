@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a1f2a8604efa0f647b8a5f0cc0a4796f
+timeCreated: 1515694375
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - DialogueTexture: {fileID: 2800000, guid: 37cb782856d9d604aa9ef261dffef133, type: 3}
+  - DialogueSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <NodeList>
+    <Node>
+      <dialogue>
+        <line>Cultist - Clyde? Again? </line>
+        <line>Clyde - Give me one more chance!! Please!! </line>
+        <line>Cultist - 10 seconds... NO MORE! </line>
+        <line> </line>
+      </dialogue>
+
+      <!-- FIRST DECISION -->
+
+      <optionList>
+        <option>
+          <text>
+            1) We need to BEAT Abaddon!
+          </text>
+          <Node>
+            <dialogue>
+              <line>Cultist - You know nothing about Him...</line>
+              <line>Clyde - I know, with your help, we can find a way! </line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            2) What do we do? You know Him way better than me.
+          </text>
+          <Node>
+            <dialogue>
+              <line>Cultist - We can't do anything! He's INVENCIBLE...</line>
+              <line>Clyde - But we have to... We can't just sit and wait for the END!!</line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            3) What if I HELP him?
+          </text>
+          <Node>
+            <dialogue>
+              <line>Cultist - He doesn't care about you, you're just one more victim to Him.</line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            4) *mumbles*...
+          </text>
+          <Node>
+            <dialogue>
+              <line>Cultist - You scared? </line>
+            </dialogue>
+          </Node>
+        </option>
+      </optionList>
+    </Node>
+
+
+    <Node>
+      <dialogue>
+        <line>Cultist - Enough!!!</line>
+        <line>Clyde - But... </line>
+        <line>Cultist - JUST GO! </line>
+      </dialogue>
+    </Node>
+  </NodeList>
+</Graph>

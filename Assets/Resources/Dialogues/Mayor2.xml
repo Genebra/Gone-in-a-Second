@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      <line>Mayor - Hi Clyde, how can I help you again? </line>
+      <line>Clyde - I'm here to see if you already decided to help me!</line>
+      <line>Mayor - Not yet, it's complicated...</line>
+      <line> </line>
+    </dialogue>
+    
+    <!-- FIRST DECISION -->
+    
+    <optionList>
+      <option>
+        <text> 1) Come on Mayor, you're the man... 
+        </text>
+        <score>1000</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>0</factionChurch>
+        <factionPolitics>5</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Mayor - I know... </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option> 
+        <text> 2) We must KILL ABADDON! It's the only way. 
+        </text>
+        <score>20000</score>
+        <factionArmy>5</factionArmy>
+        <factionChurch>0</factionChurch>
+        <factionPolitics>10</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Mayor - And we'll do it!! I promise you!! </line>
+            <line>Clyde - Politicians aren't known for their honesty...</line>
+            <line>Mayor - This time I'm VERY SERIOUS!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 3) Abaddon will KILL YOU ALL!
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>0</factionChurch>
+        <factionPolitics>-10</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Mayor - Not that Abaddon story again... </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <Node>
+          <dialogue>
+            <line>Mayor - Clyde? </line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+  </Node> 
+    
+  <Node>
+    <dialogue>
+      <line>Clyde - It's almost time then!! I hope you can help me! </line>
+      <line>Mayor - Believe me, we can do it!! Goodbye Clyde! </line>
+    </dialogue>
+  </Node>
+</NodeList>
+</Graph>

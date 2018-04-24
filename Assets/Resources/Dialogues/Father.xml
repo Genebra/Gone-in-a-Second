@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      <line>Father - *praying...* </line>
+      <line>Father - How can I help you son? </line>
+      <line>Clyde - Father, the World is in DANGER!! </line>
+      <line>Father - In Danger? Why? I hope this isn't another bad joke! </line>
+      <line>Clyde - It's not! I wouldn't come here and interrupt your prayers in vain... </line>
+      <line>Father - Why do you think I can believe you? </line>
+      <line> </line>
+    </dialogue>
+    
+    <!-- FIRST DECISION -->
+    
+    <optionList>
+      <option>
+        <text> 1) I need HELP... 
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch> 5 </factionChurch>
+        <factionPolitics> 0 </factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - From me? Why?</line>
+            <line>Clyde - You represent the OLDEST faction in the World, you must know what to do! </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option> 
+        <text> 2) He's the only with the STRENGHT to do the job... 
+        </text>
+        <score>0</score>
+        <factionArmy>2</factionArmy>
+        <factionChurch>5</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - What job? Can you explain yourself? </line>
+            <line>Clyde -  We need to KILL Abbadon Father! We need God's STRENGHT!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 3) We are NOT praying for the RIGHT God!  
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>-5</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - You're trying to tell me, representant of GOD down here, that there's another GOD? Come on... </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <Node>
+          <dialogue>
+            <line>Father - Son? </line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+  </Node> 
+    
+    <!-- SECOND DECISION -->
+    
+  <Node>
+    <dialogue>
+      <line>Father - Well, with just that, I'm still not very convinced... </line>
+      <line>  </line>
+    </dialogue>
+    <optionList>
+      <option>
+        <text> 1) Many people follows you. Together we can BEAT Him!!
+        </text>
+        <score>5000</score>
+        <factionArmy>2</factionArmy>
+        <factionChurch>5</factionChurch>
+        <factionPolitics>2</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Well, you may have a point, nothing is more powerful than fighting for God... </line>
+            <line>Clyde - More people means greater chances of BEATING him!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option> 
+        <text> 2) You have the most followers behind you, your HELP is crucial. 
+        </text>
+        <score>1000</score>
+        <factionArmy>2</factionArmy>
+        <factionChurch>5</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Indeed, if this is a real problem, you're quite right. </line>
+            <line>Clyde -  We need to bring as many as possible with us...</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 3) Your followers just follow you because of your God.
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>-5</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Of course they follow, there's NO ONE else to follow!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <score>0</score>
+        <factionChurch> 0 </factionChurch>
+        <factionPolitics> 0 </factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Son? </line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+  </Node>
+        
+    <!-- THIRD DECISION -->
+    
+  <Node>
+    <dialogue>
+      <line>Father - I can see that this isn't a joke son... </line>
+      <line>  </line>
+    </dialogue>
+    <optionList>
+      <option>
+        <text> 1) Father, you know, deep in you, we need to FIGHT Abaddon!</text>
+        <score>50000</score>
+        <factionArmy>5</factionArmy>
+        <factionChurch>10</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - I really have that power in my hands, right now... </line>
+            <line>Clyde - It is the best way to really show God's power! </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 2) We really need to find a way...
+        </text>
+        <score>10000</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch> 5 </factionChurch>
+        <factionPolitics> 0 </factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - This seems really serious, son. Maybe I can do something... </line>
+            <line>Clyde - Please Father, Abaddon is bringing the END. </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option> 
+        <text> 3) Now it's up to you, either you're with us, or you're against us! 
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>-10</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Us who? </line>
+            <line>Clyde - Abaddon and his followers!!</line>
+            <line>Father - There's no Abaddon, son! Take that thought out of your head...</line>
+          </dialogue>
+        </Node>
+      </option>
+
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <score>0</score>
+        <factionChurch> 0 </factionChurch>
+        <factionPolitics> 0 </factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Son? </line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+  </Node>
+    
+    
+  <Node>
+    <dialogue>
+      <line>Clyde - Alright, I guess I have nothing more to say. Your call! </line>
+      <line>Father - Alright, alright son... May God be with you! </line>
+    </dialogue>
+  </Node>
+</NodeList>
+</Graph>
+
+  

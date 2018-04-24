@@ -1,0 +1,34 @@
+Clyde - Mentor
+
+Mentor - Hey, hey, calm down. Finally, you're awake now!
+Clyde - Uhm... uhm...
+Mentor - So you're Clyde?
+Clyde - Yes... How do you know me? 
+Mentor- Hi! I'm Jack James, but you can call me J.J. I'm a journalist from the Dabot County Post 
+and I represent the MCSO, Myhstical Creatures Secret Organization. We've been doing some researches and 
+thse researches told us the one thing we feared: ABADDON IS COMING!
+Clyde -  I' aware of that. It may sound ridiculous but I saw him... In the future! The moment he arrived!
+Mentor - OH MY GOD! THAT'S IT!
+Clyde - ...What? I don't understand...
+Mentor - Our research also told us that someone is destined to help us somehow, someone who knows the beast,
+who knows what to do... IT'S YOU!
+Clyde - You think so?
+Mentor - For sure! You''re the only one who has seen him. You have the answers.
+Please, tell me what should we do? I can help you!
+
+<<BIG DECISION>>
+1) We need to gather everyone to fight together. As a unit, we have the power to KILL HIM!
+2) He is completely invencible, the best we can do is gather every people we can and RUN AWAY FROM HERE!
+3) This isn't bad at all. His arriving is the best that happened to Dabot County. ABADDON is our
+savior, we need to JOIN HIM to rule the World!
+
+Mentor - Wow... That's... PERFECT! And I think I can help you...
+-> Take this advice if you want:
+---------------------------------
+|								|
+|	   some advice pop up		|
+|								|
+---------------------------------
+
+Clyde - Thank you for your help Jack!!
+Mentor - It's J.J. and reach me whenever you want. I'll come to your HEADQUARTERS.

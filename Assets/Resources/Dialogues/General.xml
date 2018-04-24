@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Graph>
+  <NodeList>
+    <Node>
+      <dialogue>
+        <line>Clyde - Hello General Douglas, do you have a moment?</line>
+        <line>General - Who are you?!</line>
+        <line>Clyde - Sir, I'm Clyde Sheppard and I need your help.</line>
+        <line>General - You need my help? Don't you think I have a lot to do?</line>
+        <line>Clyde - You'll see that this is has massive priority, sir!</line>
+        <line>General - Priorities are my country and my men.</line>
+        <line>Clyde - EXACTLY!!</line>
+        <line>General - Explain yourself! Be Quick!</line>
+        <line>Clyde - It's the ABADDON!! HE'S COMING!!</line>
+        <line>General - Who?!... Come on...</line>
+        <line>Clyde - He's a very powerful BEAST, I know it's hard to believe, but He's nothing like we've seen. </line>
+        <line>General - Hm...</line>
+        <line> </line>
+      </dialogue>
+      
+      <!-- FIRST DECISION -->
+
+      <optionList>
+        <option>
+          <text>
+            1) We need to STOP HIM, and your Army will allow us to do that.
+          </text>
+            <score>5000</score>
+            <factionArmy>10</factionArmy>
+            <factionChurch>0</factionChurch>
+            <factionPolitics>0</factionPolitics>
+          <Node>
+            <dialogue>
+              <line>General - You're talking about sacrificing my men??</line>
+              <line>Clyde - If we let Him destroy our planet, there will be no Army left to sacrifice. </line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            2) I think you, Sir, are perfect to HELP me figure out some plan.
+          </text>
+           <score>500</score>
+           <factionArmy>5</factionArmy>
+           <factionChurch>0</factionChurch>
+           <factionPolitics>0</factionPolitics>
+          <Node>
+            <dialogue>
+              <line>General - We are an Army, how could we even help? </line>
+              <line>Clyde -  You're respected, organized, authoritarian. People will listen to you all. </line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            3) You and your men should JOIN Abaddon's cause!
+          </text>
+           <score>0</score>
+           <factionArmy>-5</factionArmy>
+           <factionChurch>0</factionChurch>
+           <factionPolitics>0</factionPolitics>
+          <Node>
+            <dialogue>
+              <line>General - What cause exactly? Come on... </line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            4) *mumbles*...
+          </text>
+          <Node>
+            <dialogue>
+              <line>General - Nothing? </line>
+            </dialogue>
+          </Node>
+        </option>
+      </optionList>
+    </Node>
+    <Node>
+      <dialogue>
+        <line>General - I don't know man, you got me by surprise.</line>
+        <line>Clyde - So you believe me now?</line>
+        <line>General - Can't say... Not sure yet!</line>
+        <line>  </line>
+      </dialogue>
+
+      <!-- SECOND DECISION -->
+
+      <optionList>
+        <option>
+          <text>
+            1) We need to SAVE OUR PEOPLE, sir! They need us to do something...
+          </text>
+          <score>7000</score>
+          <factionArmy>5</factionArmy>
+          <factionChurch>5</factionChurch>
+          <factionPolitics>5</factionPolitics>
+          <Node>
+            <dialogue>
+              <line>General - In this case, yes may have a point...</line>
+              <line>Clyde - They are the ones we need to look at!</line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            2) You'll be defending your COUNTRY, your FLAG, your PEOPLE.
+          </text>
+          <score>100000</score>
+          <factionArmy>10</factionArmy>
+          <factionChurch>0</factionChurch>
+          <factionPolitics>5</factionPolitics>
+          <Node>
+            <dialogue>
+              <line>General - That's definately the most important for the Army! </line>
+              <line>Clyde - It's not just that, you're also PROTECTING our World! </line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            3) You will be defending a true GOD. Abaddon is coming to stay!
+          </text>
+          <score>0</score>
+          <factionArmy>-10</factionArmy>
+          <factionChurch>-2</factionChurch>
+          <factionPolitics>0</factionPolitics>
+          <Node>
+            <dialogue>
+              <line>General - Man, come on... You're not making sense.</line>
+            </dialogue>
+          </Node>
+        </option>
+        <option>
+          <text>
+            4) *mumbles*...
+          </text>
+          <Node>
+            <dialogue>
+              <line>General - Nothing? </line>
+            </dialogue>
+          </Node>
+        </option>
+      </optionList>
+    </Node>
+    <Node>
+      <dialogue>
+        <line>General - Okay, man, I'll speak with the other Lieutenents. We'll comunicate our decision later. </line>
+        <line>Clyde - Thank you Sir!</line>
+      </dialogue>
+    </Node>
+  </NodeList>
+</Graph>

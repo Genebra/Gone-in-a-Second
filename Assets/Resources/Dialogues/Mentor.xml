@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      <line>Mentor - Hey, hey, calm down. Finally, you're awake now!</line>
+      <line>Clyde - Uhm... uhm...</line>
+      <line>Mentor - So you're Clyde?</line>
+      <line>Clyde - Yes, how do you know me?</line>
+      <line>Mentor- Hi! I'm Jack James, but you can call me J.J. I'm a journalist from the Dabot County Post and I represent </line>
+      <line>the MCSO, Myhstical Creatures Secret Organization. </line> 
+      <line>We've been doing some researches and the researches told us the one thing we feared: Abaddon IS COMING!</line>
+      <line>Clyde -  I' aware of that. It may sound ridiculous but I saw him... In the future! The moment he arrived!</line>
+      <line>Mentor - OH MY GOD! THAT'S IT!</line>
+      <line>Clyde - ...What? I don't understand...</line>
+      <line>Mentor - Our research also told us that someone is destined to help us somehow, someone who knows the beast,</line>
+      <line> who knows what to do... IT'S YOU!</line>
+      <line>Clyde - You think so?</line>
+      <line>Mentor - For sure! You're the only one who has seen him. You have the answers.</line>
+      <line>Mentor - Please, tell me what should we do? I can help you!</line>
+      <line>  </line>
+    </dialogue>
+    <optionList>
+      <option>
+        <text> 1) We need to gather everyone to KILL ABADDON.</text>
+        <Node>
+          <dialogue>
+            <line>Mentor - Wow... That's... PERFECT! And I think I can help you...</line>
+            <line>-> Take this advice if you want:</line>
+            <line>  GO TALK TO THOSE YOU THINK THAT CAN BRING MORE PEOPLE WITH THEM! </line>
+            <line>Clyde - Thank you for your help Jack!!</line>
+            <line>Mentor - It's J.J. and reach me whenever you want. I'll come to your HEADQUARTERS.</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 2) We have to RUN AWAY FROM HERE!</text>
+        <Node>
+          <dialogue>
+            <line>Mentor - No, I don't think that is a good idea...</line>
+            <line>Mentor - We have to save these people! We HAVE TO KILL ABADDON, and only you can guide us!</line>
+            <line>-> Take this advice if you want:</line>
+            <line>  GO TALK TO THOSE YOU THINK THAT CAN BRING MORE PEOPLE WITH THEM! </line>
+            <line>Clyde - Thank you for your help Jack!!</line>
+            <line>Mentor - It's J.J. and reach me whenever you want. I'll come to your HEADQUARTERS.</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 3) We need to JOIN HIM to rule the World!</text>
+        <Node>
+          <dialogue>
+            <line>Mentor - No, I don't think that is a good idea...</line>
+            <line>Mentor - We have to save these people! We HAVE TO KILL ABADDON, and only you can guide us!</line>
+            <line>-> Take this advice if you want:</line>
+            <line>  GO TALK TO THOSE YOU THINK THAT CAN BRING MORE PEOPLE WITH THEM! </line>
+            <line>Clyde - Thank you for your help Jack!!</line>
+            <line>Mentor - It's J.J. and reach me whenever you want. I'll come to your HEADQUARTERS.</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) I don't know...</text>
+        <Node>
+          <dialogue>
+            <line>Mentor - Don't worry, I know what we must do!</line>
+            <line>Mentor - We have to save these people! We HAVE TO KILL ABADDON, and only you can guide us!</line>
+            <line>-> Take this advice if you want:</line>
+            <line>  GO TALK TO THOSE YOU THINK THAT CAN BRING MORE PEOPLE WITH THEM! </line>
+            <line>Clyde - Thank you for your help Jack!!</line>
+            <line>Mentor - It's J.J. and reach me whenever you want. I'll come to your HEADQUARTERS.</line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+</Node>
+</NodeList>
+</Graph>

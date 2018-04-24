@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+	<NodeList>
+	<Node>
+		<dialogue>
+			<line>Mayor - What do you want boy?</line>
+			<line>Clyde - I need to speak to you about something really important!</line>
+			<line>Mayor - Unfortunately, we're stacked in paperwork. I think you should send us an e-mail explaining your issues.</line>
+			<line>Clyde - This can't be discussed through an e-mail!! You have to let me explain to you, it's URGENT!</line>
+			<line>Mayor - Urgent is this law about gay parents having kids, this can divide a Nation. What else can be so problematic?</line>
+			<line>Clyde - This can mean the END OF THE PLANET EARTH!!</line>
+			<line>Mayor - ...</line>
+			<line>Mayor - AHAHAHAHAHAHAHAHAHAHAHAHAHAHAH WHAT? Well, I really need a break from this crap, I guess you can distract me a bit.</line>
+			<line>Mayor - Tell me then what happened that is sooooo terrifying.</line>
+      <line>Clyde - It's ABADDON...</line>
+			<line>Mayor - Ahahahah oh lord! ABA... Who? Please, don't waste my time with this invention of yours.</line>
+			<line>Mayor - I'm going to call a security to lead you to the door</line>
+      <line>  </line>
+		</dialogue>
+
+	  <!-- FIRST DECISION -->
+
+    <optionList>
+			<option>
+				<text> 1) Did you think you can be the face of the TAKE DOWN of ABADDON?
+				</text>
+				  <score>1000</score>
+  			  <factionArmy>5</factionArmy>
+          <factionChurch>0</factionChurch>
+        	<factionPolitics>10</factionPolitics>
+				<Node>
+					<dialogue>
+						<line>Mayor - You're not joking, I can see...</line>
+            <line>Clyde - You can be the most powerful man on Earth, you can have anyone respecting you.</line>
+					</dialogue>
+				</Node>
+			</option>
+			<option> 
+				<text> 2) You have to HELP ME, we need to do something about Him!
+				</text>
+				  <score>0</score>
+  			  <factionArmy>0</factionArmy>
+			    <factionChurch>0</factionChurch>
+        	<factionPolitics>5</factionPolitics>
+				<Node>
+					<dialogue>
+						<line>Mayor - Do what?</line>
+            <line>Clyde - I don't know, but you're the LEADER od Dabot County!</line>
+					</dialogue>
+				</Node>
+			</option>
+			<option>
+				<text> 3) JOIN ME and ABADDON. You're life can be spared.
+				</text>
+				  <score>0</score>
+  			  <factionArmy>0</factionArmy>
+          <factionChurch>-10</factionChurch>	
+          <factionPolitics>0</factionPolitics>
+				<Node>
+					<dialogue>
+						<line>Mayor - Wow, okay... That doesn't make any sense. </line>
+					</dialogue>
+				</Node>
+			</option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <Node>
+          <dialogue>
+            <line>Mayor - Now you decided to stay quiet?! </line>
+          </dialogue>
+        </Node>
+      </option>
+		</optionList>
+	</Node>
+	<Node>
+		<dialogue>
+			<line>Mayor -  Security, wait...! Let the man speak. Tell me more about that...</line>
+			<line>  </line>
+		</dialogue>
+
+	  <!-- SECOND DECISION -->
+
+    <optionList>
+      <option>
+        <text> 1) I can give you 1 MILLION DOLLARS, if you HELP ME...
+        </text>
+        <score>2500</score>
+        <factionArmy>2</factionArmy>
+        <factionChurch>2</factionChurch>
+        <factionPolitics>10</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Mayor - MILLION?? Like with six 0's?</line>
+            <line>Clyde - Correct!!</line>
+            <line>Mayor - It will be hard, but for that ammount... </line>
+          </dialogue>
+        </Node>
+      </option>
+			<option> 
+				<text> 2) Help us DEFEATING Abaddon and we'll give you a LOT of MONEY.
+				</text>
+				  <score>20000</score>
+          <factionArmy>5</factionArmy>
+          <factionChurch>0</factionChurch>		
+          <factionPolitics>10</factionPolitics>
+				<Node>
+					<dialogue>
+						<line>Mayor - That task is as hard as profitable! It's being rewarded FIGHTING for the good side...</line> 
+					</dialogue>
+				</Node>
+			</option>
+      <option>
+        <text> 3) There's a BIG MONEY PRIZE waiting for you... If you're on Abaddon's SIDE.
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>-2</factionChurch>
+        <factionPolitics>-10</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Mayor - What? Abaddon doesn't exist... I never saw him</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <Node>
+          <dialogue>
+            <line>Mayor - Now you decided to stay quiet?! </line>
+          </dialogue>
+        </Node>
+      </option>
+		</optionList>
+	</Node>
+	<Node>
+		<dialogue>
+			<line>Clyde - Well, I think I have said enough. Now, it's up to you!</line>
+			<line>Mayor - Uhm... Okay okay, you'll hear from me, I promise. Thanks for your coming.</line>
+		</dialogue>
+	</Node>
+</NodeList>
+</Graph>

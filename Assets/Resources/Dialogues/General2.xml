@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      <line>General - Hello man, how can I help you again? </line>
+      <line>Clyde - I'm here to see if you already decided to help me!</line>
+      <line>General - I'm still in negotiations...</line>
+      <line> </line>
+    </dialogue>
+    
+    <!-- FIRST DECISION -->
+    
+    <optionList>
+      <option>
+        <text> 1) Please, I don't know what to do... 
+        </text>
+        <score>0</score>
+        <factionArmy>5</factionArmy>
+        <factionChurch>0</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>General - That's why we're on negotiations with other Countries.</line>
+            <line>Clyde - Why?</line>
+            <line>General - The more the better!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option> 
+        <text> 2) We can BEAT HIM!!! Your men are the best on the planet! 
+        </text>
+        <score>100000</score>
+        <factionArmy>10</factionArmy>
+        <factionChurch>0</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>General - Yes, I know my men, but we need help from other Nations for such Mission! </line>
+            <line>Clyde - Great idea!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 3) Abaddon will KILL YOU ALL!
+        </text>
+        <score>0</score>
+        <factionArmy>-10</factionArmy>
+        <factionChurch>0</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>General - Not that Abaddon story again... </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <Node>
+          <dialogue>
+            <line>General - Nothing? </line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+  </Node> 
+    
+  <Node>
+    <dialogue>
+      <line>Clyde - He's almost here!! I hope you can help me, I'm counting on you! </line>
+      <line>General - In the name of my Country, I'll do my best! </line>
+    </dialogue>
+  </Node>
+</NodeList>
+</Graph>

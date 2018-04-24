@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      <line>Father - Hello son, how can I help you again? </line>
+      <line>Clyde - I'm here to see if you already decided to help me!</line>
+      <line>Father - Not yet, it's a delicate matter...</line>
+      <line> </line>
+    </dialogue>
+    
+    <!-- FIRST DECISION -->
+    
+    <optionList>
+      <option>
+        <text> 1) Come on Father, alone I can't figure out what to do... 
+        </text>
+        <score>1500</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch> 5 </factionChurch>
+        <factionPolitics> 0 </factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - I'm aware, son, and I've been thinking on how to help you...</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option> 
+        <text> 2) We can BEAT HIM!!! You know that, Father. 
+        </text>
+        <score>7500</score>
+        <factionArmy>5</factionArmy>
+        <factionChurch>10</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - What job? Can you explain yourself? </line>
+            <line>Clyde -  We need to KILL Abbadon Father! We need God's STRENGHT!</line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 3) Abaddon will KILL YOU ALL!
+        </text>
+        <score>0</score>
+        <factionArmy>0</factionArmy>
+        <factionChurch>-10</factionChurch>
+        <factionPolitics>0</factionPolitics>
+        <Node>
+          <dialogue>
+            <line>Father - Not that Abaddon story again... </line>
+          </dialogue>
+        </Node>
+      </option>
+      <option>
+        <text> 4) *mumbles*...
+        </text>
+        <Node>
+          <dialogue>
+            <line>Father - Son? </line>
+          </dialogue>
+        </Node>
+      </option>
+    </optionList>
+  </Node> 
+    
+  <Node>
+    <dialogue>
+      <line>Clyde - It's almost time!! I'll leave you now, but I hope you can help me! </line>
+      <line>Father - I'll do my best son... May God be with you! </line>
+    </dialogue>
+  </Node>
+</NodeList>
+</Graph>
+
+  

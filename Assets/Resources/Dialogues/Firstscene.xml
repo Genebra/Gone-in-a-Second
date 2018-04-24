@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <NodeList>
+  <Node>
+    <dialogue>
+      	<line>"Hmmmmmmmm... My head hurts so bad..." </line>
+      	<line>"Did someone hit me or...?" </line>
+  		<line>"Where am I??" </line>
+  		<line>"This seems like my old home... But how?" </line>
+		<line>"Did I just go back in time?... This house, doesn't even exist anymore." </line>
+    <line>*...* </line>
+		<line>"OH GOD, WHERE IS IT, WHERE DID IT GO?" </line>
+		</dialogue>
+	</Node>
+</NodeList>
+</Graph>
